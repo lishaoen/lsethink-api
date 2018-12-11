@@ -1,0 +1,21 @@
+{
+    "name": "lishaoen/lsethink-api",
+    "description": "A RESTful API package",
+    "license": "Apache-2.0",
+    "version": "1.0.1",
+    "authors": [
+        {
+            "name": "lishaoen",
+            "email": "lishaoenbh@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "topthink/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "lsethinkapi\\": "src"
+        }
+    }
+}
